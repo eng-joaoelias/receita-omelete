@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0
+}
+
+.attribution {
+    font-size: 1.7vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: rgb(243, 229, 216);
+}
+
+.container-principal {
+    margin-left: 21vw;
+}
+
+.container-conteudo {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    align-self: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    border-radius: 2vw;
+    margin-top: 5vh;
+}
+
+.txt-receita {
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    letter-spacing: 1.2px;
+}
+
+.info-preparo-tempo {
+    background-color: rgb(255, 247, 252);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-bottom: 1.3vh;
+    padding-top: 1.3vh;
+    border-radius: 20px;
+    padding-left: 1.8vw;
+}
+
+.info-preparo-tempo h3 {
+    color: rgb(118, 43, 73);
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.6vh;
+    padding-bottom: 1vh;
+    padding-top: 0.6vh;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    color: rgb(131, 70, 49);
+    margin-bottom: 1.2vh;
+    margin-top: 0.7vh;
+    font-size: 3.1vh;
+}
+
+p,
+li,
+th,
+td {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.3vh;
+    padding: 0.5vh;
+}
+
+section {
+    margin-top: 2vh;
+}
+
+.foto-receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-receita img {
+    padding-top: 5vh;
+    width: 45vw;
+    border-radius: 2vw;
+}
+
+.info-nutricional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-collapse: collapse;
+    margin-top: 2vh; /* Adicionando margem acima da tabela */
+    margin-bottom: 5vh; /* Adicionando margem abaixo da tabela */
+}
+
+.info-nutricional tr,
+td {
+    border-bottom: 0.26vh solid #ddd;
+}
+
+.cabecalho-tabela {
+    padding-right: 23vw;
+    padding-bottom: 1.7vh;
+    padding-top: 1.7vh;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 4.3vh;
+    margin-bottom: 1.2vh;
+    margin-top: 0.7vh;
+}
+
+.tmp-preparo {
+    list-style: inside disc rgb(101, 37, 63);
+}
