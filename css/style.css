@@ -105,8 +105,10 @@ section {
     flex-direction: column;
     align-items: center;
     border-collapse: collapse;
-    margin-top: 2vh; /* Adicionando margem acima da tabela */
-    margin-bottom: 5vh; /* Adicionando margem abaixo da tabela */
+    margin-top: 2vh;
+    /* Adicionando margem acima da tabela */
+    margin-bottom: 5vh;
+    /* Adicionando margem abaixo da tabela */
 }
 
 .info-nutricional tr,
@@ -129,4 +131,24 @@ h1 {
 
 .tmp-preparo {
     list-style: inside disc rgb(101, 37, 63);
+}
+
+@media only screen and (max-width: 430px) {
+    .container-conteudo {
+        width: 100vw;
+        margin-top: 0vh;
+        padding: 0;
+    }
+
+    .container-principal {
+        margin: 0;
+    }
+    .foto-receita img {
+        width: 100vw;
+        padding-top: 1vh;
+    }
+    .txt-receita {
+        padding-left: 10vw;
+        padding-right: 2vw;
+    }
 }
